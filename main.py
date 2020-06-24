@@ -175,7 +175,7 @@ if __name__ == '__main__':
         loss_weights = np.ones(10)
         loss_weights[1:] = np.random.rand(9) * 1000
         loss_weights = torch.tensor(loss_weights).float()
-        loss_weights = loss_weights.to("cuda") # TODO make it more elegant
+        loss_weights = loss_weights.to("cuda") # TODO fix me
         mtadam.append(main(True, True, loss_weights))
         adam.append(main(False, True, loss_weights))
         balanced.append(main(False, False, loss_weights))
