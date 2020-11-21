@@ -11,5 +11,11 @@ Files:
 mtadam.py
 Main.py
 
-
+If you find the code useful in your research, please consider citing the paper:
+@article{malkiel2020mtadam,
+  title={MTAdam: Automatic Balancing of Multiple Training Loss Terms},
+  author={Malkiel, Itzik and Wolf, Lior},
+  journal={arXiv preprint arXiv:2006.14683},
+  year={2020}
+}
 
